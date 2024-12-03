@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Roboto, sans-serif;
+}
+ 
+#header {
+    background-color: #1F2937;
+    color:white;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+
+}
+.header-content p , .nav-list li{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero-container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    /* margin:60px; */
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.nav-list li {
+    text-decoration: none;
+}
