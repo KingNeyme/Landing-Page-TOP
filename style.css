@@ -135,6 +135,8 @@ a {
 /* Call-to-Action */
 .call-to-action-container {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     background-color: #3882F6;
     color: #FFFFFF;
